@@ -114,7 +114,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(Number.isInteger(numero / 1)){
+  if(numero % 1 === 0){
     return true;
   }
 
